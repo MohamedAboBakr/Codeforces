@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main{
+   public static void main(String[] args){
+
+    Scanner input = new Scanner(System.in);
+    int n = input.nextInt();
+    int sum = 0;
+  for(int i=0;i<n;i++){
+   int p = input.nextInt();
+    int q = input.nextInt();
+     if(q-p >1) sum++;
+}
+  System.out.printf("%d\n",sum);
+
+}
+  
+}
